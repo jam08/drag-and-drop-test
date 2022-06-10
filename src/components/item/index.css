@@ -1,0 +1,25 @@
+.add-new-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.add-new-container input {
+  flex-grow: 2;
+  font-size: 1em;
+  line-height: 2.5;
+  padding-left: 1em;
+  border: solid 1px lightgray;
+}
+.add-button {
+  flex-grow: 1;
+  font-size: 1em;
+  margin-left: 1em;
+  padding: 0.5em;
+  height: 3em;
+  width: 6em;
+  border-radius: 0.3em;
+  border-width: 0em;
+  border-style: none;
+  color: #fff;
+  background-color: rgb(12, 112, 193);
+}

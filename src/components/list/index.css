@@ -1,0 +1,26 @@
+.list-container {
+  width: 20em;
+}
+.list_ul {
+  width: 80%;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.list_ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px lightgray;
+  height: 3em;
+  margin: 0.3em 0;
+}
+
+.item-hasFocus {
+  background-color: lightgray;
+}
+
+.item-selected {
+  background-color: lightblue;
+}
+
