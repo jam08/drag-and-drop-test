@@ -97,7 +97,6 @@ const List = () => {
           <li 
             id={item}
             key={item}
-            // className={itemInFocus === item ? 'item item-hasFocus' : 'item'}
             role="option" 
             aria-selected={item === selection} 
             draggable={true} 
